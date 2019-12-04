@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nugget Game</title>
+    <link rel="stylesheet" type = "text/css" href="CleanNuggetCode.css">
+    <script type = "text/javascript" src = "CleanNuggetCode.js"></script>
+</head>
+<body>  
+    
+    <!-- startbutton to create typing text -->
+    <button id = "start" onClick= "typeWriter()"> Start </button>
+    <!-- the text being written out -->
+    <p id = "writeOutText"> </p>
+    <!-- picture of chicken nugget that people can click on -->
+    <img hidden disabled src = "Pictures/chickenNugget.jpeg" id = "nuggetPicture" height = "200" 
+    width = "200" onClick = getChickenNuggets()>
+
+    <p hidden id = "nuggets"> You have <a id = "nuggetClicks"> </a> Chicken Nuggets </p>
+
+    <button hidden id = "sellNuggets" onClick = "sellNuggets()" > Sell Nuggets </button>
+
+    <h1 hidden id = "dinoCoinText"> DinoCoins: <a id = "dinoCoins" > 0</a></h1>
+
+    <div class = "bankClass">
+            <h1 hidden id = "bankTitle"> Bank </h1>
+    </div>
+
+</body>
+</html>

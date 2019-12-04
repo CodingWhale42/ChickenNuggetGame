@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+h1{
+    color: white;
+}
+#start{
+    height:200px;
+    width: 400px;
+    position: absolute;
+    top:250px;
+    left: 475px;
+    font-size: 40px;
+    border-radius: 20px;
+    background: rgb(197, 197, 197);
+    cursor:pointer;
+}
+
+#nuggetPicture {
+    top: 125px;
+    position: absolute;
+    cursor: pointer;
+    left: 50px;
+}
+
+#writeOutText{
+    position: absolute;
+    top:350px;
+    left:40px;
+    font: Arial;
+    color:white;
+    font-size: 40;
+}
+#nuggets{
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    color:white;
+}
+#sellNuggets{
+    position: absolute;
+    left: 275px;
+    top: 175px;
+    height: 50px;
+    width: 100px;
+}
+#dinoCoinText{
+    position: absolute;
+    left:50px;
+    color: white;
+}
+
